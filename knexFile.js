@@ -5,7 +5,7 @@ const connection = {
     connection : {
         host : 'localhost',
         user : 'root',
-        password : 'zeba@123',
+        password : '',
         database : 'india_news'
     }
 };
