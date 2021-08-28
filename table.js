@@ -7,8 +7,8 @@ knex.schema.hasTable('Headlinedata').then((exists) => {
             table.string('Headline')
         })
         .catch((err) => {
-            console.log(err,"There is some err while writing the quety")
+            console.log(err,"There is some err while writing the query")
         })
     }
-    return console.log('table is created!')
+    return console.log('table has created!')
 });
